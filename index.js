@@ -24,5 +24,7 @@ let transform = (array) =>
 // Способ 2
 // Проходить по всем элементам тем же reduce и формировать массив массивов с последовательными числами. После пройтись по этим массивам и взять только крайние числа. После, объединить запятыми.
 
-let result = transform(array3);
-console.log(result);
+// let result = transform(array3);
+// console.log(result);
+
+module.exports = transform;
