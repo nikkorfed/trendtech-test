@@ -1,8 +1,13 @@
 {
-  "name": "trendtech-test",
+  "name": "@nikkorfed/trendtech-test-exercise",
   "version": "1.0.0",
-  "description": "",
+  "description": "Test exercise before the interview in TrendTech company.",
   "main": "index.js",
+  "homepage": "https://github.com/nikkorfed/trendtech-test-exercise#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nikkorfed/trendtech-test-exercise.git"
+  },
   "scripts": {
     "start": "node index.js",
     "dev": "nodemon index.js",
