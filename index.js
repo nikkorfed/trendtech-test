@@ -1,4 +1,4 @@
-let transform = (array) => {
+let transform = async (array) => {
   let result = array.reduce((array, item) => {
     if (!array.length) return array.push([item]) && array;
 
